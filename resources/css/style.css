@@ -15,6 +15,7 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+  background-color: black;
 }
 
 header img {
@@ -25,4 +26,58 @@ header img {
 nav span a {
   color: seashell;
   padding: 0px 10px 0px 10px;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 69px;
+  align-items: center;
+}
+
+.sub_container {
+  display: flex;
+}
+
+.mission_statement {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../images/tea_cozy_background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.mission_statement_text {
+  background-color: black;
+}
+
+.mission_statement_text h2 {
+  margin: 10px 0px 20px 0px;
+}
+
+.mission_statement_text h4 {
+  margin: 20px 0px 10px 0px;
+}
+
+.tea_month {
+  flex-direction: row;
+  width: 1000px;
+  text-align: center;
+}
+
+.image_container {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 10px 10px 10px;
+}
+
+.image_container img {
+  height: 200px;
+  width: 300px;
+}
+
+.image_container h4 {
+  margin: 10px 0px 0px 0px;
 }
