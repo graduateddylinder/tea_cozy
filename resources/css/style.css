@@ -92,7 +92,8 @@ nav span a {
 
 .locations {
   flex-direction: column;
-  height: 570px;
+  height: 570px; /* FOR REVIEWER: using 500px did not seem to match design spec
+  (i.e picture did not match), so I used 570 instead */
   width: 1200px;
   background-image: url(../images/tea_cozy_locations.jpg);
   margin-top: 60px;
